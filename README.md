@@ -15,7 +15,7 @@ The objective of this task is to create a **bar chart or histogram** to visualiz
 
 ## 📁 Dataset
 
-The dataset used in this task is a **Demographics Dataset** containing **U.S. county-level population data**.
+The dataset used in this task is a world_population_dataset .
 
 ### Key Columns
 
@@ -65,19 +65,7 @@ This histogram shows how the **population is distributed across counties**.
 * A few counties have **extremely large populations**.
 * The distribution is **right-skewed**, meaning most values are concentrated on the lower side.
 
----
-
-## 📂 Project Structure
-
-```
-Prodigy_DS_Task1
-│
-├── demographics.csv
-├── task1_visualization.ipynb
-└── task1_visualization.py
-```
-
----
+--
 
 ## ▶ How to Run the Project
 
@@ -86,17 +74,10 @@ Prodigy_DS_Task1
 ```bash
 pip install pandas matplotlib seaborn
 ```
-
-### 2️⃣ Run the Python Script
-
-```bash
-python task1_visualization.py
-```
-
-### 3️⃣ Open the Jupyter Notebook
+### 2️⃣ Open the Jupyter Notebook
 
 ```bash
-jupyter notebook task1_visualization.ipynb
+jupyter notebook TASK1.ipynb
 ```
 
 ---
