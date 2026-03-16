@@ -1,86 +1,91 @@
-# Prodigy InfoTech Data Science Internship – Task 1
+# 📊 Prodigy InfoTech Internship – Task 1
 
-## 📊 Data Visualization using Python
+## Data Visualization using Python
 
-Welcome to my submission for **Task 1** of the **Data Science Internship at Prodigy InfoTech**.
-In this task, I performed **data visualization** to analyze the distribution of categorical and continuous variables using a real-world dataset.
+### 📌 Task Objective
 
----
-
-## 📌 Task Objective
-
-The objective of this task is to create a **bar chart or histogram** to visualize the distribution of a categorical or continuous variable from a dataset using Python.
+The objective of this task is to create **visualizations such as bar charts or histograms** to represent the distribution of categorical or continuous variables using a real-world dataset.
 
 ---
 
-## 📁 Dataset
+### 📁 Dataset
 
-The dataset used in this task is a ["worldpopulationdata.csv"](https://github.com/nehaa225/PRODIGY_DS_01/blob/main/worldpopulationdata.csv) .
+The dataset used in this project contains ****.
+It includes information about **male, female, and total population for the year 2022**.
 
-### Key Columns
+Key columns in the dataset:
 
-* **State** – Categorical variable
-* **Total Population** – Continuous variable
-* **Male Population**
-* **Female Population**
-* **White Alone**
-* **Black or African American Alone**
-* **Hispanic or Latino**
+* **Country Name** – Name of the country
+* **Country Code** – Country code
+* **2022** – Population count for the year 2022
+
+The dataset helps visualize **population distribution across different countries**.
 
 ---
 
-## 🛠 Tools & Libraries Used
-
-The following tools and libraries were used for this project:
+### 🛠 Tools & Libraries Used
 
 * **Python**
 * **Jupyter Notebook**
-* **Pandas** – Data manipulation
+* **Pandas** – Data manipulation and analysis
+* **NumPy** – Numerical operations
 * **Matplotlib** – Data visualization
-* **Seaborn** – Statistical visualization
+* **Seaborn** – Statistical data visualization
 
 ---
 
-## 📊 Visualizations
+### 📊 Data Visualization
 
-### 1️⃣ Bar Chart – Number of Counties per State
+Several visualizations were created to understand the dataset:
 
-This bar chart represents the **number of counties present in each U.S. state**.
+* **Bar chart of top 10 countries by total population**
+* **Bar chart of top 10 countries by male population**
+* **Bar chart of top 10 countries by female population**
+* **Histogram showing population distribution**
 
-#### Insights
-
-* **Texas** has the highest number of counties.
-* **Georgia** and **Virginia** follow next.
-* Smaller states like **Delaware** and **Rhode Island** have very few counties.
+These visualizations help in comparing population statistics between countries.
 
 ---
 
-### 2️⃣ Histogram – Distribution of Total Population
+### 📈 Key Insights
 
-This histogram shows how the **population is distributed across counties**.
+* Some countries have significantly **larger populations compared to others**.
+* Male and female population distributions are **generally balanced across most countries**.
+* Visualization helps easily identify **top populated countries**.
 
-#### Insights
+---
 
-* Most counties have **smaller populations**.
-* A few counties have **extremely large populations**.
-* The distribution is **right-skewed**, meaning most values are concentrated on the lower side.
+### 📂 Project Structure
 
---
-
-## ▶ How to Run the Project
-
-### 1️⃣ Install Dependencies
-
-```bash
-pip install pandas matplotlib seaborn
-```
-### 2️⃣ Open the Jupyter Notebook
-
-```bash
-jupyter notebook TASK1.ipynb
+```id="epkl3l"
+PRODIGY_DS_01
+│
+├── TASK1.ipynb        # Jupyter Notebook containing analysis and visualizations
+├── dataset.csv        # Dataset used for visualization
+└── README.md          # Project documentation
 ```
 
 ---
+
+### 🚀 How to Run the Project
+
+1. Clone this repository
+2. Open the notebook using **Jupyter Notebook or Jupyter Lab**
+3. Install required libraries if needed:
+
+```id="0odcx7"
+pip install pandas numpy matplotlib seaborn
+```
+
+4. Run the notebook cells to reproduce the visualizations.
+
+---
+
+### 🔗 Internship
+
+This project is part of the **Prodigy InfoTech Data Science Internship Program**.
+
+⭐ If you found this project helpful, feel free to **star the repository**.
 
 ## 📈 Conclusion
 
@@ -90,7 +95,7 @@ This task demonstrates how **data visualization helps in understanding data dist
 
 ## ✨ Author
 
-**Neha Reddy**
+**Neha Reddy K**
 
 Data Science Intern – Prodigy InfoTech
 
