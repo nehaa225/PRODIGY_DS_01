@@ -10,7 +10,7 @@ The objective of this task is to create **visualizations such as bar charts or h
 
 ### 📁 Dataset
 
-The dataset used in this project contains **https://github.com/nehaa225/PRODIGY_DS_01/blob/main/worldpopulationdata.csv**.
+The dataset used in this project contains **[https://github.com/nehaa225/PRODIGY_DS_01/blob/main/worldpopulationdata.csv](https://github.com/nehaa225/PRODIGY_DS_01/blob/main/worldpopulationdata.csv)**.
 It includes information about **male, female, and total population for the year 2022**.
 
 Key columns in the dataset:
